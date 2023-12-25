@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 150px;
+}
+
+.field {
+  height: 750px;
+  width: 750px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #77ff00ee;
+}
+
+.cell {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+.cell-1 {
+  background-color: hsla(92, 30%, 39%, 0.492);
+}
+
+.body {
+  background: url(../images/body.jpg);
+  background-size: cover;
+  border-radius: 30%;
+}
+/*
+.head {
+
+  background-size: cover;
+  border-radius: 30%;
+} */
+
+.head-right {
+  background: url(../images/head\ right.png);
+  background-size: cover;
+  border-radius: 30%;
+}
+
+.head-left {
+  background: url(../images/head\ left.png);
+  background-size: cover;
+  border-radius: 30%;
+}
+
+.head-up {
+  background: url(../images/head\ up.png);
+  background-size: cover;
+  border-radius: 30%;
+}
+
+.head-down {
+  background: url(../images/head\ down.jpg);
+  background-size: cover;
+  border-radius: 30%;
+}
+
+.apple {
+  background: url(../images/apple.png);
+  background-size: contain;
+}
+
+.collision {
+  background: url(../images/collision.png);
+  background-size: contain;
+}
+
+.score {
+  margin: auto;
+  margin-top: 40px;
+  font-size: 40px;
+  display: block;
+  background-color: rgb(22, 203, 98);
+}
